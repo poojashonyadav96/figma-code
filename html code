@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+ 
+</head>
+
+<body>
+    <div class=" container">
+        <div class="row">
+            <div class="col">
+                <p class="section-header">Communities we manage</p>
+            </div>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-4">
+                <div class=" card-container">
+                    <img class="card-img" src="assets/arabian-ranches.jpg" alt="arabian-ranches">
+                    <div class=" card-description-container">
+                        <p class="card-description">Arabian Ranches offers a modern interpretation of the soothing
+                            charm
+                            of
+                            the surrounding desertscape. The development features a number of residential
+                            communities
+                            that
+                            draw inspiration from Spanish and Arabian architecture.</p>
+                    </div>
+                    <div class="card-footer-container">
+                        <p class="card-footer-text">Arabian Ranches </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-container">
+                    <img class="card-img" src="assets/arabian-ranches-ii.jpg" alt="arabian-ranches-ii">
+                    <div class="card-description-container">
+                        <p class="card-description">Arabian Ranches offers a modern interpretation of the soothing charm
+                            of the surrounding desertscape. The development features a number of residential communities
+                            that draw inspiration from Spanish and Arabian architecture.</p>
+                    </div>
+                    <div class="card-footer-container">
+                        <p class="card-footer-text">Arabian Ranches II </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-container">
+                    <img class="card-img" src="assets/downtown-dubai.jpg" alt="downtown-dubai">
+                    <div class="card-description-container">
+                        <p class="card-description">The Centre of Now. The most prestigious square kilometre in the
+                            world. Downtown Dubai is no stranger to such accolades, and yet it’s hard to overstate the
+                            prominence of this community.</p>
+                    </div>
+                    <div class="card-footer-container">
+                        <p class="card-footer-text">Downtown Dubai</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card-container">
+                    <img class="card-img" src="assets/dubai-hills-estate.jpg" alt="dubai-hills-estate">
+                    <div class="card-description-container">
+                        <p class="card-description">Sustainably designed, Dubai Hills Estate is a first of its kind
+                            destination. This masterfully-planned 2,700-acre multi-purpose development will form an
+                            integral part of the Mohammed Bin Rashid City.</p>
+                    </div>
+                    <div class="card-footer-container">
+                        <p class="card-footer-text">Dubai Hills Estate</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-container">
+                    <img class="card-img" src="assets/dubai-marina.png" alt="dubai-marina">
+                    <div class="card-description-container">
+                        <p class=" card-description">Dubai Marina is one of the world’s largest, most meticulously
+                            planned waterfront developments and offers the exhilaration and vibrancy of a chic, urban
+                            lifestyle together with all the advantages of living on the water.</p>
+                    </div>
+                    <div class="card-footer-container">
+                        <p class="card-footer-text">Dubai Marina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-container">
+                    <img class="card-img" src="assets/emirates-living.jpg" alt="emirates-living">
+                    <div class="card-description-container">
+                        <p class="swiper-slide card-description">Launched in 2003, Emirates Living is a modern lifestyle community
+                            focused on outdoor leisure. Emirates Living offers a serene nature-filled sanctuary, with
+                            8,659 premium villas nestled within 52.2 million square feet of lush greenery.</p>
+                    </div>
+                    <div class="card-footer-container">
+                        <p class=" card-footer-text">Emirates Living </p>
+                    </div>
+                </div>
+            </div>
+        
+
+
+        <div class="spacer"></div>
+        <div class="row mt-5">
+            <div class="col mb-4">
+                <p class="section-header">Our Services</p>
+            </div>
+        </div> 
+        </div>
+ 	<div class=" container">
+	<div class=" row g-5">
+          	<div class="col-lg-4">
+                	<div class=" caro-container">
+                    <img class="  caro-img" src="assets/arabian-ranches.jpg" alt="arabian-ranches">
+                    <div class=" caro-description-container">
+                        <p class=" caro-description">Arabian Ranches offers a modern interpretation of the soothing
+                            charm
+                            of
+                            the surrounding desertscape. The development features a number of residential
+                            communities
+                            that
+                            draw inspiration from Spanish and Arabian architecture.</p>
+                    </div>
+                    <div class=" caro-footer-container">
+                        <p class=" caro-footer-text">Arabian Ranches </p>
+                    </div>
+                </div>
+
+            </div>
+
+	
+</div>
+ 	
+
+      
+</body>
+
+</html>
